@@ -1,0 +1,43 @@
+.topdeals{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+}
+.deals{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 10px;
+  gap: 8px;
+}
+.deal_h2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #7de5ff;
+  padding: 8px 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.deal_h2 h2{
+  font-weight: 500;
+  color: #1f1f1f;
+  font-size: 20px;
+}
+.see{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  color: #1f1f1f;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 450px){
+  .topdeals{
+    margin: 0px 10px;
+  }
+  .deals{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}

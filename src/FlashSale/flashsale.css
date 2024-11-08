@@ -1,0 +1,23 @@
+.flash{
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.flash_sale{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+
+@media screen and (max-width: 450px){
+  .flash{
+    margin: 0px 10px;
+  }
+  .flash_sale{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}

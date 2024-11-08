@@ -1,0 +1,21 @@
+.allabout{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+}
+.allabout h2{
+  font-size: 19px;
+  color: #272727;
+}
+.allabout h3{
+  font-size: 16px;
+  color: #161616;
+}
+.allabout p{
+  font-size: 12px;
+  color: #3a3a3a;
+  line-height: 18px;
+}
